@@ -1,0 +1,21 @@
+<?php
+/**
+ * Облаго тегов.
+ * 
+ * Этот файл является частью виджета.
+ * 
+ * @copyright Copyright (c) 2015 Веб-студия GearMagic
+ * @license https://gearmagic.ru/license/
+ * 
+ * @var array $items
+ * @var bool $showCounters
+ * @var \Gm\Widget\TagCloud\Widget $widget
+ */
+
+?>
+<ul>
+<?php foreach ($items as $tag): ?>
+    <li><a class="btn" id="tag<?= $tag['id'] ?>" href="/tag/<?= $tag['slug'] ?>"><?= $tag['name'], 
+        ($showCounters && $tag['counter'] > 0 ? ' (' . $tag['counter'] . ')' : '') ?></a></li>
+<?php endforeach ?>
+</ul>
