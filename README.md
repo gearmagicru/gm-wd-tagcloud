@@ -1,4 +1,4 @@
-# Виджет "Облако меток"
+# <img src="https://raw.githubusercontent.com/gearmagicru/gm-wd-tagcloud/refs/heads/master/assets/images/icon.svg" width="64px" height="64px" align="absmiddle"> Виджет "Облако меток"
 
 Виджет предназначен для отображения меток (тегов) в виде облака.
 
