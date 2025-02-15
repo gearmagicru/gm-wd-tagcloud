@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-wd-tagcloud",
-    "description": "Site widget \"Tag cloud\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "site",
-        "widget",
-        "tags"
-    ],
+    "description": "Website widget \"Tag cloud\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-widget", "widget", "tags"],
     "homepage": "https://apps.gearmagic.ru/component/gm-wd-tagcloud",
     "type": "component",
     "license": "MIT",
